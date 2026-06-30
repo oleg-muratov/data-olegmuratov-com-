@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oleg Muratov — Data Science &amp; Causal Inference</title>
+  <meta name="description" content="Data-science portfolio of Oleg Muratov — economist (PhD) working in causal inference, experimentation, and applied pricing/market analysis." />
+  <style>
+    :root{
+      --ink:#1a2230; --muted:#5b6675; --accent:#1f3a5f; --accent2:#2c6fb3;
+      --line:#e4e8ee; --bg:#ffffff; --chip:#eef3f8;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+      line-height:1.6;-webkit-font-smoothing:antialiased}
+    .wrap{max-width:760px;margin:0 auto;padding:64px 24px 80px}
+    header h1{font-size:2rem;margin:0 0 4px;letter-spacing:-.01em}
+    header .sub{color:var(--accent);font-weight:600;margin:0 0 18px}
+    p{color:var(--ink)}
+    .lead{font-size:1.06rem;color:#33404f}
+    a{color:var(--accent2);text-decoration:none}
+    a:hover{text-decoration:underline}
+    h2{font-size:1.15rem;margin:42px 0 14px;padding-bottom:6px;border-bottom:1px solid var(--line);letter-spacing:-.01em}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 0;padding:0;list-style:none}
+    .chips li{background:var(--chip);color:var(--accent);border-radius:999px;padding:4px 12px;font-size:.85rem;font-weight:500}
+    .card{border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin:16px 0;transition:box-shadow .15s ease}
+    .card:hover{box-shadow:0 4px 18px rgba(20,30,50,.07)}
+    .card h3{margin:0 0 6px;font-size:1.05rem}
+    .card .meta{color:var(--muted);font-size:.85rem;margin:0 0 10px}
+    .badge{display:inline-block;background:#fff6e6;color:#9a6a00;border:1px solid #f0dca8;
+      border-radius:6px;font-size:.72rem;font-weight:600;padding:2px 8px;vertical-align:middle;margin-left:8px}
+    .card p{margin:0 0 10px;color:#3a4655}
+    .links a{font-size:.9rem;margin-right:16px}
+    footer{margin-top:54px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+    footer a{margin-right:16px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Oleg Muratov</h1>
+      <p class="sub">Data Science &amp; Causal Inference</p>
+      <p class="lead">Economist (PhD, Penn State) applying causal inference, experimentation, and the
+        SQL/Python stack to real-world data. This is my data-science portfolio — for my academic profile and CV,
+        see <a href="https://www.olegmuratov.com">olegmuratov.com</a>.</p>
+    </header>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="chips">
+        <li>Causal inference</li><li>Experimentation / A&#8209;B testing</li><li>Difference&#8209;in&#8209;differences</li>
+        <li>Survival analysis</li><li>Hedonic / regression modeling</li><li>Python</li><li>SQL · DuckDB</li>
+        <li>pandas · scikit&#8209;learn</li><li>ETL &amp; data pipelines</li><li>Stata</li><li>Git</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <!-- Flip the badge to a live link when the repo + writeup are public. -->
+      <div class="card">
+        <h3>London Airbnb — Pricing &amp; Market Segmentation <span class="badge">Coming soon</span></h3>
+        <p class="meta">Hedonic pricing · clustering · Python (pandas, scikit-learn, statsmodels)</p>
+        <p>A hedonic-pricing analysis of what drives London Airbnb nightly rates (room type, location,
+          reviews, host attributes), plus a k-means segmentation of the listing market. Reproducible notebook + writeup.</p>
+        <p class="links"><span style="color:var(--muted);font-size:.9rem">GitHub &amp; writeup — launching shortly</span></p>
+      </div>
+
+      <!-- TEMPLATE for a new project — copy this block:
+      <div class="card">
+        <h3>Project title</h3>
+        <p class="meta">methods · tools</p>
+        <p>One-sentence question + what you found.</p>
+        <p class="links"><a href="GITHUB_URL">GitHub</a><a href="WRITEUP_URL">Writeup</a></p>
+      </div>
+      -->
+    </section>
+
+    <footer>
+      <a href="mailto:oleg.muratov.90@gmail.com">oleg.muratov.90@gmail.com</a>
+      <a href="https://scholar.google.com/citations?user=L2tY-fUAAAAJ&amp;hl=en">Google Scholar</a>
+      <a href="https://www.olegmuratov.com">olegmuratov.com</a>
+      <a href="https://github.com/">GitHub</a>
+    </footer>
+  </div>
+</body>
+</html>
