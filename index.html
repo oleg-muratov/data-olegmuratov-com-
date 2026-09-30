@@ -50,7 +50,7 @@
       <h2>Skills</h2>
       <ul class="chips">
         <li>Causal inference</li><li>Experimentation / A&#8209;B testing</li><li>Difference&#8209;in&#8209;differences</li>
-        <li>Survival analysis</li><li>Hedonic / regression modeling</li><li>Python</li><li>SQL · DuckDB</li>
+        <li>Survival analysis</li><li>Regression · panel fixed effects</li><li>Python</li><li>SQL · DuckDB</li>
         <li>pandas · scikit&#8209;learn</li><li>ETL &amp; data pipelines</li><li>Stata</li><li>Git</li>
       </ul>
     </section>
@@ -58,13 +58,14 @@
     <section>
       <h2>Projects</h2>
 
-      <!-- Flip the badge to a live link when the repo + writeup are public. -->
       <div class="card">
-        <h3>London Airbnb — Pricing &amp; Market Segmentation <span class="badge">Coming soon</span></h3>
-        <p class="meta">Hedonic pricing · clustering · Python (pandas, scikit-learn, statsmodels)</p>
-        <p>A hedonic-pricing analysis of what drives London Airbnb nightly rates (room type, location,
-          reviews, host attributes), plus a k-means segmentation of the listing market. Reproducible notebook + writeup.</p>
-        <p class="links"><span style="color:var(--muted);font-size:.9rem">GitHub &amp; writeup — launching shortly</span></p>
+        <h3>London Airbnb — How Posted Prices Behave Over the Calendar</h3>
+        <p class="meta">Listing fixed effects · two-way clustered standard errors · 24M listing-days · Python (pandas, pyfixest, DuckDB)</p>
+        <p>How do 85,000 London Airbnb listings price the year ahead? About a third post one price on every
+          date. Within the same listing, posted prices are 2.4% higher on Friday and Saturday nights and about
+          11% higher over Christmas and New Year, and professional hosts' listings show roughly twice the
+          premium. Built on posted prices only, with no booking or revenue claims the data can't support.</p>
+        <p class="links"><a href="https://github.com/oleg-muratov/london-airbnb-analysis">GitHub &amp; writeup</a><a href="https://github.com/oleg-muratov/london-airbnb-analysis/blob/main/notebooks/02-pricing-behavior.ipynb">Main notebook</a></p>
       </div>
 
       <!-- TEMPLATE for a new project — copy this block:
@@ -81,7 +82,7 @@
       <a href="mailto:oleg.muratov.90@gmail.com">oleg.muratov.90@gmail.com</a>
       <a href="https://scholar.google.com/citations?user=L2tY-fUAAAAJ&amp;hl=en">Google Scholar</a>
       <a href="https://www.olegmuratov.com">olegmuratov.com</a>
-      <a href="https://github.com/">GitHub</a>
+      <a href="https://github.com/oleg-muratov">GitHub</a>
     </footer>
   </div>
 </body>
