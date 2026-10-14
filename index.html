@@ -73,6 +73,18 @@
       <h2>Projects</h2>
 
       <div class="card">
+        <h3>Google Merchandise Store — GA4 Funnel, Channels and Week-over-Week Tests</h3>
+        <p class="meta">BigQuery SQL on the raw GA4 export · data-quality audit · quasi-Poisson and two-proportion tests with Benjamini–Hochberg · Python (pandas, statsmodels, pytest) · Tableau Public</p>
+        <p>Rebuilt 360,129 visits from 4.3 million raw events in Google's public GA4 export, and audited what
+          the export can be trusted for: the store is its own traffic source on 53% of source-tagged events,
+          some purchases are recorded up to four times, and add-to-cart is missing on 18 days. Conversion rose
+          to 2.0% in early December and fell to 0.56% in early January; 7 of 12 week-over-week changes are
+          beyond chance, while no swing in traffic stands out against the quarter's typical variation. Referral
+          visits convert at 4.1%: 7.7% of visits, but 23.5% of visits with a purchase.</p>
+        <p class="links"><a href="https://public.tableau.com/views/GA4E-commerceFunnel_17919914049840/Dashboard">Dashboard</a><a href="https://github.com/oleg-muratov/ga4-ecommerce-funnel">GitHub &amp; writeup</a></p>
+      </div>
+
+      <div class="card">
         <h3>London Airbnb — How Posted Prices Behave Over the Calendar</h3>
         <p class="meta">Listing fixed effects · two-way clustered standard errors · 24M listing-days · Python (pandas, pyfixest, DuckDB)</p>
         <p>How do 85,000 London Airbnb listings price the year ahead? About a third post one price on every
